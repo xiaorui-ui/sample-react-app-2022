@@ -28,6 +28,7 @@ yarn start
 6. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 7. You should see a page like this.
    ![Basic Page](public/images/BasicPage.png)
+   Do note that the page may take a while to load. Waiting for a few minutes to load is perfectly normal the first time you open the webpage.
 
 ### Navigating the code
 

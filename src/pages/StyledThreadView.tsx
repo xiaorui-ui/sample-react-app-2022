@@ -33,6 +33,7 @@ const StyledThreadView: React.FC = () => {
                     {' docs to see what other components you can use!'}
                 </Typography>
             </Fade>
+            {/* card is the element that gives the boxes in the most nested page */}
             <Card>
                 <CardContent>
                     <Typography component="p">{'Viewing thread:'}</Typography>
