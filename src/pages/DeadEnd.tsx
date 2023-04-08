@@ -5,6 +5,8 @@ const DeadEnd: React.FC = () => {
         <div style={{ width: '25vw', margin: 'auto', textAlign: 'center' }}>
             {/* <plaintext>{'text'}</plaintext>, doesn't work beacsue the style is alr specified*/}
             <p> {"It's a trap!"} </p>
+
+            <p> {'plaintext'}</p>
         </div>
     );
 };
