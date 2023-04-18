@@ -5,7 +5,7 @@ const BasicCommentBox: React.FC = () => {
       <form>
         <label htmlFor="comment">Comment:</label>
         <textarea id="comment" name="comment"></textarea>
-        <button type="submit"></button>
+        <button type="submit">Unsub</button>
       </form>
     );
   };

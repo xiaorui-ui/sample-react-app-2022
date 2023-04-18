@@ -29,9 +29,15 @@ const BasicThreadView: React.FC = () => {
                 onInit={(typewriter) => {
                     hideButton();
                     typewriter
-                        .changeDelay(80)
-                        .pauseFor(1500)
+                    
+                    // delay per character    
+                    .changeDelay(-69)
+
+                    // delay before it starts
+                        .pauseFor(800)
                         .typeString("It's a little plain isn't it?")
+                        .pauseFor(500)
+                        .deleteChars(10)
                         .callFunction(showButton)
                         .start();
                 }}
