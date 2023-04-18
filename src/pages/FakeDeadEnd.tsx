@@ -1,21 +1,23 @@
 import React from 'react';
+import BasicCommentBox from '../components/CommentBox';
+import { Link } from 'react-router-dom';
 
-const DeadEnd: React.FC = () => {
+const FakeDeadEnd: React.FC = () => {
     return (
         <div style={{ width: '25vw', margin: 'auto', textAlign: 'center' }}>
             {/* <plaintext>{'text'}</plaintext>, doesn't work beacsue the style is alr specified*/}
-            <h6> {"It's a trap!"} </h6>
+            <h4> {"It's a trap!"} </h4>
 
-            <p> {'plaintext'} </p>
+            <p> {'Just kidding. How do you feel?'} </p>
 
-            <p> {'more text'} </p>
+            <BasicCommentBox/>
 
-            <p> {'vwefwe'} </p>
+            <Link to = '/'>{'Back to home'}</Link>
         </div>
     );
 };
 
-export default DeadEnd;
+export default FakeDeadEnd;
 
 // Yay I created my first page!
 // Remember to include in the app, import it(else how else would the app know where it is right?) and include its url
